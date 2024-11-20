@@ -5,14 +5,26 @@ import os
 # Data in memory
 users = []
 questions = [
-    {"question": "What is the capital of Japan?", "options": ["Tokyo", "Beijing", "Seoul", "Bangkok"], "correct": "Tokyo"},
-    {"question": "What is 12 x 8?", "options": ["80", "92", "96", "88"], "correct": "96"},
-    {"question": "Which gas do plants absorb from the atmosphere?", "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], "correct": "Carbon Dioxide"},
-    {"question": "Who wrote the play 'Romeo and Juliet'?", "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "J.K. Rowling"], "correct": "William Shakespeare"},
-    {"question": "What is the boiling point of water at sea level (in °C)?", "options": ["90", "100", "110", "120"], "correct": "100"},
-    {"question": "Who painted the Mona Lisa?", "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"], "correct": "Leonardo da Vinci"},
-    {"question": "What is the chemical symbol for Gold?", "options": ["Go", "Ag", "Au", "Pt"], "correct": "Au"},
-    {"question": "Which planet is known as the Red Planet?", "options": ["Venus", "Mars", "Jupiter", "Saturn"], "correct": "Mars"}
+    {"question": "Which of the following is not a primitive data type in Java?", "options": ["int", "char", "String", "boolean"], "correct": "String"},
+    {"question": "What does the 'self' keyword represent in Python?", "options": ["A reference to the class", "A reference to the instance", "A reference to the parent class", "A reference to the current function"], "correct": "A reference to the instance"},
+    {"question": "Which of the following SQL statements is used to retrieve data from a database?", "options": ["INSERT", "SELECT", "DELETE", "UPDATE"], "correct": "SELECT"},
+    {"question": "Which of these is a valid Python comment?", "options": ["// This is a comment", "# This is a comment", "/ This is a comment", "<!-- This is a comment -->"], "correct": "# This is a comment"},
+    {"question": "Which method in Java is used to start a thread?", "options": ["run()", "start()", "execute()", "init()"], "correct": "start()"},
+    {"question": "What does DBMS stand for?", "options": ["Database Management System", "Data Bank Management System", "Database Model System", "Data Binary Management System"], "correct": "Database Management System"},
+    {"question": "What is the correct syntax for creating a dictionary in Python?", "options": ["dict = {}", "dict = []", "dict = ()", "dict = ''"], "correct": "dict = {}"},
+    {"question": "Which of the following is used to declare a constant in Java?", "options": ["final", "constant", "const", "immutable"], "correct": "final"},
+    {"question": "Which keyword is used in Python to create a function?", "options": ["func", "define", "function", "def"], "correct": "def"},
+    {"question": "Which of the following SQL clauses is used to filter records?", "options": ["WHERE", "SELECT", "FROM", "GROUP BY"], "correct": "WHERE"},
+    {"question": "Which of these methods is used to add an element to a list in Python?", "options": ["add()", "insert()", "append()", "push()"], "correct": "append()"},
+    {"question": "What is the default value of a boolean variable in Java?", "options": ["0", "false", "true", "null"], "correct": "false"},
+    {"question": "In SQL, which command is used to remove a table?", "options": ["DELETE", "DROP", "REMOVE", "TRUNCATE"], "correct": "DROP"},
+    {"question": "Which of these is used to handle exceptions in Java?", "options": ["try-catch", "throw-throw", "exception-catch", "if-else"], "correct": "try-catch"},
+    {"question": "Which data type does the 'input()' function return in Python?", "options": ["str", "int", "list", "bool"], "correct": "str"},
+    {"question": "What does the 'public' access modifier in Java mean?", "options": ["The class or method is accessible from anywhere", "The class or method is accessible only within the class", "The class or method is accessible only within the package", "The class or method is accessible only in its subclass"], "correct": "The class or method is accessible from anywhere"},
+    {"question": "Which of the following SQL commands is used to update data in a table?", "options": ["MODIFY", "UPDATE", "ALTER", "CHANGE"], "correct": "UPDATE"},
+    {"question": "Which data type can store multiple values in Python?", "options": ["int", "list", "char", "string"], "correct": "list"},
+    {"question": "What is the return type of the 'main' method in Java?", "options": ["void", "int", "String", "boolean"], "correct": "void"},
+    {"question": "Which of the following is used to execute an SQL query in Python?", "options": ["execute_query()", "cursor.execute()", "query.execute()", "db.execute()"], "correct": "cursor.execute()"}
 ]
 results = {}
 
