@@ -1,6 +1,6 @@
 # Quiz-App 
 
-1.Quiz App data saved in program memory
+1. Quiz App data saved in program memory
 
 
 Overview
